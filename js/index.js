@@ -42,3 +42,6 @@ function showResult(){
     result.value = eval(operations.value);
 }
 
+function reset(){
+    operations.value = "";
+}
